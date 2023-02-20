@@ -1,0 +1,11 @@
+const Node = (value) => {
+    return {
+        value: input || null, 
+        nextNode: null, 
+        changeValue(newValue){
+            this.value = newValue;
+        },
+    };
+};
+
+export default Node;
